@@ -1,4 +1,4 @@
-# Tools-Project-Data-Cleaning
+# Capital Markets Data Cleaning, Validation, and Analytics 
 
 # What is This Project
 This project deals with the daily stock prices of 500 stocks over the horizon of 5 years. We employed Python to perform (1) data cleaning, (2) CAPM validation, and (3) data analytics and visualization. 

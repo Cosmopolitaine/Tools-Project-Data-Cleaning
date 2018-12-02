@@ -14,6 +14,7 @@ Source Codes for data analysis are in 'CAPM_Regression_Data_Analysis.ipynb' and 
 You need to install a few modules on your computer before proceed to using this program. 
 1. pandas
 2. pandas_datareader
+3. matplotlib.pyplot
 
    
 # Credits

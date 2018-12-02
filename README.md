@@ -15,7 +15,7 @@ You need to install a few modules on your computer before proceed to using this 
    please run the following command prompt: pip install pandas-datareader
    
 # Credits
-Contributors:
+Contributors & Work Contributed :
 
 Yuxuan Zheng yz3460
 
@@ -23,4 +23,4 @@ Weichong Ni
 
 Shilan Tu
 
-Mengran Cui
+Mengran Cui (mc4575): (1) Stock price data cleaning. Identify data anomalies, including missing values & suspicoous stock movements. (2) Construct CAPM model. Find SP500 and treasury yield data, left merge with existing stock price using dates as identifier.  Calculated Betas using variance and covariance. Calculated daily CAPM returns for each stock. Compared predicted CAPM return vs. realized return. 

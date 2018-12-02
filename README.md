@@ -1,7 +1,7 @@
 # Capital Markets Data Cleaning and Analytics 
 
 # What is This Project
-This project deals with the daily stock prices of 500 stocks over the horizon of 5 years. We employed Python to perform (1) data cleaning，and (2)data analytics and visualization. 
+This project deals with the daily stock prices of 500 stocks over the horizon of 5 years. We employed Python to perform data cleaning, data analytics and visualization. 
 
 # How to Use This Project
 1. Data_Cleaning

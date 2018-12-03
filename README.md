@@ -6,14 +6,14 @@
 ## What is This Project
 This project deals with the daily stock prices of 500 stocks over the horizon of 5 years. We employed Python to perform data cleaning, data analytics, and data visualization. 
 
-# Data Cleaning: 
+### Data Cleaning: 
 * Found missing data, wrong data (eg. unreasonable high or low price, too high or too low returns, stocksplits, etc.) after getting a rough view of potential wrong data with pandas. Then corrected them with webcrawller or mannually (for sharesplits). The output 'Clean_Data_Out.csv' would be used for later analysis and visualization. 
 
-# Data Analysis:
+### Data Analysis:
 * Generalize random portfolio using Dow Jones 30 and optimized the efficient frontier in CAPM model.
 * Predicted stock price using basic Linear Regression Model upon splitted training and testing data from historical data.
 
-# Data Visualization:
+### Data Visualization:
 * Plotted histograms and historical stock price data for a rough view before cleaning data.
 * plotted random portfolio and generalized the efficient frontier.
 * Plotted chosen stock data and comparison of actual and predicted data in Linear Regression part.

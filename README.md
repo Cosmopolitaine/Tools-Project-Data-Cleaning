@@ -7,10 +7,11 @@
 This project deals with the daily stock prices of 500 stocks over the horizon of 5 years. We employed Python to perform data cleaning, data analytics, and data visualization. 
 
 ### Data Cleaning: 
-* Found missing data, wrong data (eg. unreasonable high or low price, too high or too low returns, stocksplits, etc.) after getting a rough view of potential wrong data with pandas. Then corrected them with webcrawller or mannually (for sharesplits). The output 'Clean_Data_Out.csv' would be used for later analysis and visualization. 
+* Found missing data, wrong data (eg. unreasonable high or low price, too high or too low returns, stocksplits, etc.) after getting a rough view of potential wrong data with pandas. 
+* Corrected them with webcrawller or mannually (for sharesplits). The output 'Clean_Data_Out.csv' would be used for later analysis and visualization. 
 
 ### Data Analysis:
-* Generalize random portfolio using Dow Jones 30 and optimized the efficient frontier in CAPM model.
+* Generalized random portfolio using Dow Jones 30 and optimized the efficient frontier in CAPM model.
 * Predicted stock price using basic Linear Regression Model upon splitted training and testing data from historical data.
 
 ### Data Visualization:
@@ -39,11 +40,11 @@ Open "LinearRegression_Model.ipynb". In the second cell, input 'Clean_Data_Out' 
 Data Cleaning Program: Entirety of Data Cleaning Part.
 
 #### Weichong Ni (uni = wn2163, username = Weichong515): 
-(1) Part of Data Cleaning (Cooperated with Shilan Tu in getting view of missing and potential wrong data, combined the two parts of data cleaning).  
+(1) Cooperated with Shilan Tu in getting a rough view of missing and potential wrong data before Data Cleaning.  
 (2) Prediction with Linear Regression.
 
 #### Shilan Tu (uni=st3184,username=shyla1107): 
-(1)Stock price data cleaning: Analyzed the high and low to find abnomal values; Found abnomal returns and concluded it come from stocksplit. 
+(1) Stock price data cleaning: Analyzed the high and low to find abnomal values; Found abnomal returns and concluded it come from stocksplit. 
 (2) Change the mean, variance and covariance into rolling window version in CAPM model. 
 (3) Generalized random portfolio then optimized it to find the efficient frontier in CAPM model. 
 (4) Visualized the frontier.

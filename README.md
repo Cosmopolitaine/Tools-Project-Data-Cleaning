@@ -27,8 +27,8 @@ The other programs will make use of the cleaned data this program creates, so pl
 ### 2. Data Analysis
 Source Codes for data analysis are in 'CAPM_Regression_Data_Analysis.ipynb' and 'LinearRegression_Model.ipynb'. They make use of the Output data from data cleaning program. We have included an example of cleaned data 'Clean_Data_Out.csv' which is 'all_stock_5yr.csv' cleaned using the data cleaning program to be used in the data analysis part of the project. 
 
-
-
+### 3 CAPM model
+Open 'CAPM_Regression_Data_Analysis.ipynb'.  In the first cell, input 'Clean_Data_Out' and 'Treasury Bill Yield Curve.csv'. Choose the stock you are interested in from the sp 500. Calculate the expected return using CAPM model. After that, generalize a random weight of the portfolio and visualize it. At last, optimize it and generalize efficient frontier using CAPM model. Also visualize the frontier.
 
 ### 4. Stock Price Prediction with Linear Regression Model
 Open "LinearRegression_Model.ipynb". In the second cell, input 'Clean_Data_Out' to read this csv file. Choose the stock you are interested in from the sp 500 in this third cell. Then simply run the cells in order and get the final plotting of prediction from this basic model.

@@ -1,20 +1,23 @@
 # Capital Markets Data Cleaning and Analytics 
 
+## Group: 
+### Name: Coding the Tools  (Section 1)
+
 ## What is This Project
 This project deals with the daily stock prices of 500 stocks over the horizon of 5 years. We employed Python to perform data cleaning, data analytics and visualization. 
 
-Data Cleaning: 
-Found missing data, wrong data (eg. unreasonable high or low price, too high or too low returns, stocksplits, etc.) after getting a rough view of potential wrong data with pandas. Then corrected them with webcrawller or mannually (for sharesplits). The output 'Clean_Data_Out.csv' would be used for later analysis and visualization. 
+# Data Cleaning: 
+* Found missing data, wrong data (eg. unreasonable high or low price, too high or too low returns, stocksplits, etc.) after getting a rough view of potential wrong data with pandas. Then corrected them with webcrawller or mannually (for sharesplits). The output 'Clean_Data_Out.csv' would be used for later analysis and visualization. 
 
-Data Analysis:
-(1)
-(2) Generalize random portfolio using Dow Jones 30 and optimized the efficient frontier in CAPM model.
-(3) Predicted stock price using basic Linear Regression Model upon splitted training and testing data from historical data.
+# Data Analysis:
+*
+* Generalize random portfolio using Dow Jones 30 and optimized the efficient frontier in CAPM model.
+* Predicted stock price using basic Linear Regression Model upon splitted training and testing data from historical data.
 
-Data Visualization:
-(1) Plotted histograms and historical stock price data for a rough view before cleaning data.
-(2) plotted random portfolio and generalized the efficient frontier.
-(3) Plotted chosen stock data and comparison of actual and predicted data in Linear Regression part.
+# Data Visualization:
+* Plotted histograms and historical stock price data for a rough view before cleaning data.
+* plotted random portfolio and generalized the efficient frontier.
+* Plotted chosen stock data and comparison of actual and predicted data in Linear Regression part.
                                 
 
 ## How to Use This Project
@@ -31,8 +34,6 @@ Source Codes for data analysis are in 'CAPM_Regression_Data_Analysis.ipynb' and 
 ### 4. Stock Price Prediction with Linear Regression Model
 Open "LinearRegression_Model.ipynb". In the second cell, input 'Clean_Data_Out' to read this csv file. Choose the stock you are interested in from the sp 500 in this third cell. Then simply run the cells in order and get the final plotting of prediction from this basic model.
    
-## Group: Coding the Tools
-
 ## Credits
 ### Contributors:
 

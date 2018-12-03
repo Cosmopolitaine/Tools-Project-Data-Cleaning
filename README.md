@@ -37,7 +37,7 @@ Open "LinearRegression_Model.ipynb". In the second cell, input 'Clean_Data_Out' 
 ## Credits
 ### Contributors:
 
-Yuxuan Zheng (uni = yz3460, username = Cosmopolitaine): Data Cleaning Program.
+Yuxuan Zheng (uni = yz3460, username = Cosmopolitaine): Data Cleaning Program: Entirety of Data Cleaning Part.
 
 Weichong Ni (uni = wn2163, username = Weichong515): (1) Part of Data Cleaning (Cooperated with Shilan Tu in getting view of missing and potential wrong data, combined the two parts of data cleaning).  (2) Prediction with Linear Regression.
 

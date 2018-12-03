@@ -21,7 +21,7 @@ This project deals with the daily stock prices of 500 stocks over the horizon of
 
 ## How to Use This Project
 ### 1. Data Cleaning
-Open the "Data_Cleaning.ipynb" file, and run cells in the same order as they are arranged, then execute main() function. This program will ask you for a file name, and we have included a sample "all_stocks_5yr.csv" in the the repository, or you can use any .csv file with columns ('Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Name'). The program will automatically find missing data and suspicious values, it will output a file in the end, you can choose the name of the output file. 
+Open the "Data_Cleaning.ipynb" file, and run cells in the same order as they are arranged, then execute main() function. This program will ask you for a file name, and we have included a sample "all_stocks_5yr.csv" in the the repository, or you can use any .csv file with columns ('Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Name'). The program will automatically find missing data and correct suspicious values, it will output a file as a result, you then will be asked to type in the name of the output file. 
 The other programs will make use of the cleaned data this program creates, so please run this program first. 
 
 ### 2. Data Analysis

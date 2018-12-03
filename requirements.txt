@@ -5,7 +5,9 @@ Required Modules and Packages:
 4. numpy
 5. math
 6. IPython.display
-7. sklearn:
+7. cvxopt
+8. seaborn
+9. sklearn:
 	(1) linear_model
 	(2) train_test_split
 	(3) mean_squared_error

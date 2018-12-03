@@ -11,3 +11,5 @@ Required Modules and Packages:
 	(3) mean_squared_error
 	(4) TimeSeriesSplit
 	(5) MinMaxScaler
+
+# All of the above can be installed using pip command

@@ -8,12 +8,12 @@ Found missing data, wrong data (eg. unreasonable high or low price, too high or 
 
 Data Analysis:
 (1)
-(2) 
+(2) Generalize random portfolio using Dow Jones 30 and optimized the efficient frontier in CAPM model.
 (3) Predicted stock price using basic Linear Regression Model upon splitted training and testing data from historical data.
 
 Data Visualization:
 (1) Plotted histograms and historical stock price data for a rough view before cleaning data.
-(2) 
+(2) plotted random portfolio and generalized the efficient frontier.
 (3) Plotted chosen stock data and comparison of actual and predicted data in Linear Regression part.
                                 
 
@@ -39,6 +39,6 @@ Yuxuan Zheng (uni = yz3460, username = Cosmopolitaine): Data Cleaning Program.
 
 Weichong Ni (uni = wn2163, username = Weichong515): (1) Part of Data Cleaning (Cooperated with Shilan Tu in getting view of missing and potential wrong data, combined the two parts of data cleaning).  (2) Prediction with Linear Regression.
 
-Shilan Tu
+Shilan Tu (uni=st3184,username=shyla1107): (1)Stock price data cleaning: Analyzed the high and low to find abnomal values; Found abnomal returns and concluded it come from stocksplit. (2) Change the mean, variance and covariance into rolling window version in CAPM model. (3) Generalized random portfolio then optimized it to find the efficient frontier in CAPM model. (4)Visualized the frontier.
 
 Mengran Cui (uni = mc4575): (1) Stock price data cleaning. Identify data anomalies, including missing values & suspicoous stock movements. (2) Construct CAPM model. Find SP500 and treasury yield data, left merge with existing stock price using dates as identifier.  Calculated Betas using variance and covariance. Convert stock price to returns. Calculated daily CAPM returns for each stock. Compared predicted CAPM return vs. realized return. 

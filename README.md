@@ -37,18 +37,25 @@ Open "LinearRegression_Model.ipynb". In the second cell, input 'Clean_Data_Out' 
 ### Contributors:
 
 #### Yuxuan Zheng (uni = yz3460, username = Cosmopolitaine): 
-Data Cleaning Program: Entirety of Data Cleaning Part.
+(1) Responsible for the majority of Data Cleaning Part. 
+
+(2) Cooperated in analyzing missing and abnormal data.
 
 #### Weichong Ni (uni = wn2163, username = Weichong515): 
-(1) Cooperated with Shilan Tu in getting a rough view of missing and potential wrong data before Data Cleaning.  
+(1) Cooperated with Shilan Tu in getting a rough view of missing and potential wrong data before Data Cleaning.
+
 (2) Prediction with Linear Regression.
 
 #### Shilan Tu (uni=st3184,username=shyla1107): 
-(1) Stock price data cleaning: Analyzed the high and low to find abnomal values; Found abnomal returns and concluded it come from stocksplit. 
+(1) Stock price data cleaning: Analyzed the high and low to find abnomal values; Found abnormal returns and concluded it come from stocksplit. 
+
 (2) Change the mean, variance and covariance into rolling window version in CAPM model. 
+
 (3) Generalized random portfolio then optimized it to find the efficient frontier in CAPM model. 
+
 (4) Visualized the frontier.
 
 #### Mengran Cui (uni = mc4575, username=mcui123): 
 (1) Stock price data cleaning. Identify data anomalies, including missing values & suspicoous stock movements. 
+
 (2) Construct CAPM model. Find SP500 and treasury yield data, left merge with existing stock price using dates as identifier.  Calculated Betas using variance and covariance. Convert stock price to returns. Calculated daily CAPM returns for each stock. Compared predicted CAPM return vs. realized return. 

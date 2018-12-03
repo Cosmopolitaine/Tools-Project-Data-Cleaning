@@ -27,6 +27,7 @@ Source Codes for data analysis are in 'CAPM_Regression_Data_Analysis.ipynb' and 
 
 
 
+
 ### 4. Stock Price Prediction with Linear Regression Model
 Open "LinearRegression_Model.ipynb". In the second cell, input 'Clean_Data_Out' to read this csv file. Choose the stock you are interested in from the sp 500 in this third cell. Then simply run the cells in order and get the final plotting of prediction from this basic model.
    
